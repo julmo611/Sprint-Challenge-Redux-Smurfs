@@ -1,5 +1,42 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px 0 0;
   font-family: sans-serif;
+  background:linear-gradient(
+    to bottom,
+    rgba(83, 181, 236, 0.82),
+    rgba(83, 181, 236, 0.82)
+  ),url("./assets/Smurflings-Group.jpg");
+}
+
+
+form {
+  margin: 100px auto;
+  width: 250px;
+  
+}
+
+form input {
+  width: 95%;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #1b1a1a;
+  color: #ffffff;
+}
+
+form input::placeholder {
+  color: #ffffff;
+}
+
+form button {
+  width: 60%;
+  background-color: #0f4463;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 10px; 
+  color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
